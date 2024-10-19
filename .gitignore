@@ -1,1 +1,6 @@
 /target
+/win-target
+/*/configuration/local.toml
+/memo
+
+*.lock
