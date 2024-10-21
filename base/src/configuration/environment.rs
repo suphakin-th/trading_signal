@@ -23,7 +23,7 @@ impl TryFrom<String> for Environment {
 		match s.to_lowercase().as_str() {
 			"local" => Ok(Self::Local),
 			"develop" => Ok(Self::Develop),
-            "production" => Ok(Self::Production),
+			"production" => Ok(Self::Production),
 			_ => Err(error::Error::UnsupportEnv),
 		}
 	}

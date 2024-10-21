@@ -26,5 +26,5 @@ async fn main() -> util::Result<()> {
 	tracing::subscriber::set_global_default(sub)
 		.ok()
 		.context(error::GlobalDefautSnafu)?;
-	trad_sig::app::run()    
+	trad_sig::app::run()
 }

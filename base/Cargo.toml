@@ -15,5 +15,6 @@ snafu = "0.8.5"
 tokio = { version = "1.20.2", features = ["full", "tracing"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3.16", features = ["json"] }
+thiserror = { version = "1.0", default-features = false }
 zmq = "0.10"
 
